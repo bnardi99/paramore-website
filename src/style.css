@@ -37,6 +37,14 @@ h3 {
   opacity: 0.9;
 }
 
+.carousel-control-prev-icon {
+  background-image: url(../images/circle-chevron-left-solid.webp);
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/circle-chevron-right-solid.webp);
+}
+
 .btn-listen {
   color: white;
   border: 1px solid;
