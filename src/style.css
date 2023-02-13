@@ -125,11 +125,11 @@ h3 {
 
 .btn-view-all {
   color: black;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: bold;
   border: none;
-  line-height: 3;
-  padding: 0 100px;
+  line-height: 2.5;
+  padding: 0 155px;
   background-color: var(--secondary-color);
 }
 
