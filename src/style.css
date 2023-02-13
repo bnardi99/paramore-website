@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --main-color: #d9d2bd;
+  --secondary-color: #77a8ad;
+  --third-color: #7d0f13;
+  --bg-color: #1d1e19;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn-nav {
+  color: black;
+  background-color: var(--secondary-color);
+}
+
+.social-links {
+  color: var(--secondary-color);
+  padding: 8px;
+}
+
+.btn-nav:hover {
+  color: black;
+  background-color: var(--secondary-color);
+  opacity: 0.9;
+}
+
+.btn-listen {
+  color: white;
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+.btn-listen:hover {
+  color: black;
+  padding: 10px 20px;
+  background-color: var(--main-color);
+  transition: all 100ms ease-in-out;
+}
+.events-container,
+.merch-container,
+.newsletter {
+  margin-top: 100px;
+}
+
+.tourTitle {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  width: 50%;
+  font-size: 7.3938vw;
+  line-height: 8.9311vw;
+  letter-spacing: -0.4158vw;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: var(--main-color);
+}
+
+.tourYear {
+  width: 50%;
+  font-size: 7.3938vw;
+  line-height: 8.9311vw;
+  letter-spacing: -0.4158vw;
+  font-weight: 700;
+  font-style: normal;
+  text-align: right;
+  color: var(--main-color);
+}
+
+.card {
+  border: none;
+  background-color: var(--main-color);
+}
+
+.btn-outline {
+  font-weight: bold;
+  border: 1px solid black;
+  line-height: 2;
+  padding: 3px 10px;
+  background-color: transparent;
+  margin-right: 8px;
+}
+
+.btn-outline:hover {
+  opacity: 0.6;
+}
+
+.btn-blue {
+  font-weight: bold;
+  border: 1px solid black;
+  line-height: 2;
+  padding: 3px 20px;
+  background-color: var(--secondary-color);
+}
+
+.btn-blue:hover {
+  opacity: 0.6;
+}
+
+.btn-view-all {
+  font-size: 1.8301vw;
+  line-height: 4.563vw;
+  height: 4.563vw;
+  background: var(--secondary-color);
+  width: 50%;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+}
+
+.btn-view-all:hover {
+  opacity: 0.6;
+}
+
+.merch-container img {
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.merch-container img:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
+
+.merch-description {
+  color: var(--main-color);
+  font-weight: 300;
+}
+
+.footer {
+  background-color: var(--third-color);
+}
+
+.footer-container {
+  color: var(--main-color);
+  font-size: 13px;
+}
+
+.signature {
+  color: var(--main-color);
+}
+
+.bn-socials {
+  font-size: 30px;
+}
+
+.bn-socials a {
+  color: var(--main-color);
+}
+
+.newsletter {
+  padding: 80px 0;
+  background: var(--main-color);
+  height: 100%;
+  margin-bottom: 80px;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.newsletter .content h2 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.newsletter .content .form-control {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: transparent;
+  margin-right: 8px;
+}
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: var(--secondary-color);
+  color: black;
+  font-weight: 600;
+}
+
+/* Media queries */
+@media screen and (max-width: 991px) {
+  .p-socials {
+    display: none;
+  }
+}

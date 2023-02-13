@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Paramore's new album, This Is Why, out now!"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Paramore | This Is Why Out Now</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #1d1e19"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex" id="mainNav">
+          <a class="navbar-brand col-lg-3 me-0 brand-name" href="/index.html"
+            >Paramore</a
+          >
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tour">Tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#merch">Merch</a>
+            </li>
+          </ul>
+          <div class="d-lg-flex col-lg-3 justify-content-lg-end p-socials">
+            <a href="https://facebook.com/paramore" target="_blank"
+              ><i class="fa-brands fa-facebook-f social-links"></i
+            ></a>
+            <a href="https://twitter.com/paramore" target="_blank"
+              ><i class="fa-brands fa-twitter social-links"></i
+            ></a>
+            <a href="https://instagram.com/paramore" target="_blank"
+              ><i class="fa-brands fa-instagram social-links"></i
+            ></a>
+            <a href="https://www.tiktok.com/@paramoreofficial" target="_blank"
+              ><i class="fa-brands fa-tiktok social-links"></i
+            ></a>
+            <a href="https://youtube.com/paramore" target="_blank"
+              ><i class="fa-brands fa-youtube social-links"></i
+            ></a>
+            <a
+              href="https://open.spotify.com/artist/74XFHRwlV6OrjEM0A2NCMF"
+              target="_blank"
+              ><i class="fa-brands fa-spotify social-links"></i
+            ></a>
+            <a
+              href="https://itunes.apple.com/us/album/after-laughter/id1227049864?uo=4&app=music"
+              target="_blank"
+              ><i class="fa-brands fa-apple social-links"></i
+            ></a>
+            <a href="https://soundcloud.com/paramore" target="_blank"
+              ><i class="fa-brands fa-soundcloud social-links"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video class="img-fluid" autoplay loop muted>
+            <source src="video/running-out-of-time.mp4" type="video/mp4" />
+          </video>
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Running Out Of Time</h3>
+            <p>Coming soon</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/new-album.png"
+            class="img-fluid"
+            alt="This Is Why album out now!"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>This Is Why</h3>
+            <p>Paramore's new album, out now!</p>
+            <a href="https://paramore.lnk.to/TIWAlbum"
+              ><button class="btn btn-listen mb-3">Listen Now</button></a
+            >
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/release-show.png"
+            class="img-fluid"
+            alt="Paramore performing album release show at Nashvile, 2023"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Album Release Show</h3>
+            <p>Nashville, 2023</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container events-container" id="tour">
+      <div class="tourTitle">
+        <div class="subtitle">On Tour</div>
+        <div class="tourYear mb-5">2023</div>
+      </div>
+    </div>
+    <div class="container upcoming-events-container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- South America tour dates-->
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-sa.png"
+              class="card-img-top"
+              alt="Paramore in South America"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Thu, MAR 2</h3>
+              <p class="card-text">
+                Estadio UNMSM <br />
+                <span class="text-muted">Lima District, Peru</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-sa.png"
+              class="card-img-top"
+              alt="Paramore in South America"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Sun, MAR5</h3>
+              <p class="card-text">
+                Movistar Arena <br />
+                <span class="text-muted">Santiago, Chile</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-sa.png"
+              class="card-img-top"
+              alt="Paramore in South America"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Tue, MAR 7</h3>
+              <p class="card-text">
+                Argentinian Racetrack of Palermo <br />
+                <span class="text-muted">Comuna 14, Argentina</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- UK tour dates-->
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-uk.png"
+              class="card-img-top"
+              alt="Paramore in United Kingdom"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Sat, APR 15</h3>
+              <p class="card-text">
+                Cardiff International Arena <br />
+                <span class="text-muted">Cardiff, United Kingdom</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-uk.png"
+              class="card-img-top"
+              alt="Paramore in United Kingdom"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Mon, APR 17</h3>
+              <p class="card-text">
+                OVO Hydro <br />
+                <span class="text-muted">Glasgow, United Kingdom</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-uk.png"
+              class="card-img-top"
+              alt="Paramore in United Kingdom"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Tue, APR 20</h3>
+              <p class="card-text">
+                AO Arena <br />
+                <span class="text-muted">Manchester, United Kingdom</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- North America tour dates-->
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-na.png"
+              class="card-img-top"
+              alt="Paramore in North America"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Sat, MAY 20</h3>
+              <p class="card-text">
+                Hangout Music Festival 2023 <br />
+                <span class="text-muted">Gulf Shores, AL</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-na.png"
+              class="card-img-top"
+              alt="Paramore in North America"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Tue, MAY 23</h3>
+              <p class="card-text">
+                Spectrum Center <br />
+                <span class="text-muted">Charlotte, NC</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/tour-na.png"
+              class="card-img-top"
+              alt="Paramore in North America"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Thu, MAY 25</h3>
+              <p class="card-text">
+                State Farm Arena <br />
+                <span class="text-muted">Atalanta, GA</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <input
+                type="button"
+                value="RSVP"
+                onclick="setReminder()"
+                class="btn-outline mt-2 small"
+              />
+              <input
+                type="button"
+                value="Tickets"
+                onclick="getTickets()"
+                class="btn-blue mt-2 small"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-5">
+        <button class="btn-view-all">View all tour dates</button>
+      </div>
+    </div>
+    <div class="container merch-container" id="merch">
+      <div class="subtitle mb-5">Merch</div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img
+              src="images/green-vinyl.webp"
+              alt="This Is Why Exclusive Green Vinyl"
+            />
+            <p class="text-start merch-description">
+              This Is Why Exclusive Green Vinyl <br />
+              $27.98
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/black-vinyl.webp" alt="This Is Why Black Vinyl" />
+            <p class="text-start merch-description">
+              This Is Why Black Vinyl <br />
+              $24.98
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/boxset.webp" alt="The News Boxset" />
+            <p class="text-start merch-description">
+              The News Boxset <br />
+              $50.00
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/cassette.webp" alt="This Is Why Cassette" />
+            <p class="text-start merch-description">
+              This Is Why Cassette <br />
+              $14.98
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/cd.webp" alt="This Is Why CD" />
+            <p class="text-start merch-description">
+              This Is Why CD <br />
+              $12.00
+            </p>
+          </div>
+          <div class="col">
+            <img
+              src="images/digital-album.jpg"
+              alt="This Is Why Digital Album"
+            />
+            <p class="text-start merch-description">
+              This Is Why Digital Album <br />
+              $9.99
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/news-hoodie.webp" alt="The News Hoodie" />
+            <p class="text-start merch-description">
+              The News Hoodie <br />
+              $80.00
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/news-crewneck.webp" alt="The News Crewneck" />
+            <p class="text-start merch-description">
+              The News Crewneck <br />
+              $70.00
+            </p>
+          </div>
+          <div class="col">
+            <img
+              src="images/this-is-why-hoodie.webp"
+              alt="This Is Why Hoodie"
+            />
+            <p class="text-start merch-description">
+              This Is Why Hoodie <br />
+              $80.00
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/tote-bag.webp" alt="This Is Why Tote Bag" />
+            <p class="text-start merch-description">
+              This Is Why Tote Bag <br />
+              $30.00
+            </p>
+          </div>
+          <div class="col">
+            <img src="images/poster.webp" alt="This Is Why Poster" />
+            <p class="text-start merch-description">
+              This Is Why Poster <br />
+              $24.99
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content">
+              <h2>Subscribe to our newsletter</h2>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <span class="input-group-btn">
+                  <button class="btn" type="submit" onclick="signUp()">
+                    Subscribe Now
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center text-lg-start text-muted footer">
+      <section class="footer-container">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="fw-bold mb-4 mt-5 brand-name">Paramore</h6>
+              <p>© 2023 Atlantic Records and Paramore</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
+              <h6 class="fw-bold mb-4">Shop</h6>
+              <p>
+                <a href="index.html" class="text-reset text-decoration-none"
+                  >Home</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://paramore.lnk.to/TIWAlbum"
+                  target="_blank"
+                  class="text-reset text-decoration-none"
+                  >Music</a
+                >
+              </p>
+              <p>
+                <a href="#merch" class="text-reset text-decoration-none"
+                  >Merch</a
+                >
+              </p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
+              <h6 class="fw-bold mb-4">Support</h6>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none"
+                  >Contact Us</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none"
+                  >Frequently asked questions</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none"
+                  >My account</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none"
+                  >Shipping policy</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-reset text-decoration-none"
+                  >Order status</a
+                >
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="fw-bold mb-4 mt-4">Connect</h6>
+              <p>
+                <a
+                  href="https://www.facebook.com/paramore"
+                  target="_blank"
+                  class="text-reset text-decoration-none"
+                  >Facebook</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://twitter.com/paramore"
+                  target="_blank"
+                  class="text-reset text-decoration-none"
+                  >Twitter</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://www.youtube.com/channel/UCc7_woMAIVIW2mAr1rPCsFQ"
+                  target="_blank"
+                  class="text-reset text-decoration-none"
+                  >YouTube</a
+                >
+              </p>
+              <p>
+                <a
+                  href="https://www.instagram.com/paramore/"
+                  target="_blank"
+                  class="text-reset text-decoration-none"
+                  >Instagram</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="text-center pt-3 small signature"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        Coded by
+        <a
+          class="text-reset text-decoration-none"
+          href="https://github.com/bnardi99"
+          target="_blank"
+          >Brenda Nardi</a
+        >
+        <div class="bn-socials mt-2">
+          <a href="https://www.linkedin.com/in/bnardi99/" target="_blank"
+            ><i class="fa-brands fa-linkedin p-2"></i
+          ></a>
+          <a href="https://github.com/bnardi99" target="_blank"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+          <a href="mailto:brenda1499@live.it" target="_blank"
+            ><i class="fa-solid fa-square-envelope p-2"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c6cc5b9cc1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function setReminder() {
+        alert("A reminder will be sent to your inbox before the show!");
+      }
+
+      function getTickets() {
+        alert("Tickets purchased! See you at the show!");
+      }
+
+      function signUp() {
+        alert("Thank you for signing up!");
+      }
+    </script>
+  </body>
+</html>
