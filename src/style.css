@@ -97,6 +97,7 @@ h3 {
 }
 
 .btn-outline {
+  color: black;
   font-weight: bold;
   border: 1px solid black;
   line-height: 2;
@@ -110,6 +111,7 @@ h3 {
 }
 
 .btn-blue {
+  color: black;
   font-weight: bold;
   border: 1px solid black;
   line-height: 2;
