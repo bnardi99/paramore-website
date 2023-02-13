@@ -125,14 +125,12 @@ h3 {
 
 .btn-view-all {
   color: black;
-  font-size: 1.8301vw;
-  line-height: 4.563vw;
-  height: 4.563vw;
-  background: var(--secondary-color);
-  width: 50%;
-  font-weight: 700;
-  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
   border: none;
+  line-height: 3;
+  padding: 0 100px;
+  background-color: var(--secondary-color);
 }
 
 .btn-view-all:hover {
@@ -226,6 +224,13 @@ h3 {
 
     .carousel-control-next-icon {
       display: none;
+    }
+  }
+
+  @media screen and (max-width: 535px) {
+    .btn-view-all {
+      font-size: 15px;
+      padding: 0 70px;
     }
   }
 }
