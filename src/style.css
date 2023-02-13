@@ -218,4 +218,14 @@ h3 {
   .p-socials {
     display: none;
   }
+
+  @media screen and (max-width: 767px) {
+    .carousel-control-prev-icon {
+      display: none;
+    }
+
+    .carousel-control-next-icon {
+      display: none;
+    }
+  }
 }
