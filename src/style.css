@@ -37,12 +37,20 @@ h3 {
   opacity: 0.9;
 }
 
-.carousel-control-prev-icon {
+.slider-top-prev-icon {
   background-image: url(../images/circle-chevron-left-solid.webp);
 }
 
-.carousel-control-next-icon {
+.slider-top-next-icon {
   background-image: url(../images/circle-chevron-right-solid.webp);
+}
+
+.slider-bottom-prev-icon {
+  background-image: url(../images/owl-prev.png);
+}
+
+.slider-bottom-next-icon {
+  background-image: url(../images/owl-next.png);
 }
 
 .btn-listen {
@@ -59,7 +67,8 @@ h3 {
 }
 .events-container,
 .merch-container,
-.newsletter {
+.newsletter,
+.carousel-bottom {
   margin-top: 100px;
 }
 
